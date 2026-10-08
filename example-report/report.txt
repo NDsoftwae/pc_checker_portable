@@ -1,0 +1,116 @@
+==============================================================================
+                           PC HARDWARE TEST REPORT                            
+                               PC Deals Online                                
+==============================================================================
+Manufacturer: Unknown
+Model:        Unknown
+Serial:       Unknown
+CPU:          Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+RAM:          7.7 GiB
+Storage:      758 MB HDD, 101 MB HDD, 2.1 GB HDD, 1.1 TB HDD
+Graphics:     Unknown
+Battery:      n/a
+Date:         2026-10-07 15:51
+
+OVERALL RESULT: WARN - The computer works, but some items need attention (see warnings).
+
+------------------------------------------------------------------------------
+[INFO] System Information
+------------------------------------------------------------------------------
+  [INFO] Manufacturer: Unknown
+  [INFO] Model: Unknown
+  [INFO] Serial number: Not set
+  [INFO] Chassis type: Unknown (0)
+  [INFO] Boot mode: Legacy BIOS
+  [INFO] Test mode: Quick
+  [INFO] Test date / time: 2026-10-07 15:51 (from computer clock)
+
+------------------------------------------------------------------------------
+[PASS] Processor (CPU)
+------------------------------------------------------------------------------
+  [PASS] Model: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+  [INFO] Cores / threads: 4 cores / 4 threads
+  [INFO] Virtualization: VT-x
+  [INFO] Temperature sensor: Not available on this machine
+  [PASS] Stress test (5 s, all threads, results verified): Passed - no calculation errors
+
+------------------------------------------------------------------------------
+[PASS] Memory (RAM)
+------------------------------------------------------------------------------
+  [PASS] Installed memory: 7.7 GiB
+  [INFO] Usable by system: 7.7 GiB
+  [SKIP] Memory test: No memory test tool available
+  NOTE: Quick mode tests part of the RAM briefly. For a deep RAM test choose 'Full' or boot 'Memtest86+' from the USB boot menu.
+
+------------------------------------------------------------------------------
+[PASS] Storage (Disks)
+------------------------------------------------------------------------------
+  [PASS] [sda] Drive: Virtual Disk, 758 MB, HDD
+  [INFO] [sda] Serial / firmware: 60022480868249a0407bd58c47bd59e3 / ?
+  [INFO] [sda] SMART: smartctl returned no data
+  [PASS] [sda] Read test (180 MB x 1, read-only): 751 MB/s
+  [INFO] [sda] Partitions / file systems: ext4
+  [PASS] [sdb] Drive: Virtual Disk, 101 MB, HDD
+  [INFO] [sdb] Serial / firmware: 600224808a576a3654deafca5e02a29d / ?
+  [INFO] [sdb] SMART: smartctl returned no data
+  [PASS] [sdb] Read test (24 MB x 1, read-only): 376 MB/s
+  [INFO] [sdb] Partitions / file systems: ext4
+  [PASS] [sdc] Drive: Virtual Disk, 2.1 GB, HDD
+  [INFO] [sdc] Serial / firmware: 60022480f0e14c15344f95bcf92b33c0 / ?
+  [INFO] [sdc] SMART: smartctl returned no data
+  [PASS] [sdc] Read test (512 MB x 1, read-only): 1595 MB/s
+  [INFO] [sdc] Partitions / file systems: None (empty disk)
+  [PASS] [sdd] Drive: Virtual Disk, 1.1 TB, HDD
+  [INFO] [sdd] Serial / firmware: 600224804585a7f144d3549f258fcbe3 / ?
+  [INFO] [sdd] SMART: smartctl returned no data
+  [PASS] [sdd] Read test (1024 MB x 1, read-only): 2553 MB/s
+  [INFO] [sdd] Partitions / file systems: ext4
+
+  Detected drives
+    Device  Model         Size    Type  Life left  Read speed
+    sda     Virtual Disk  758 MB  HDD   -          751 MB/s  
+    sdb     Virtual Disk  101 MB  HDD   -          376 MB/s  
+    sdc     Virtual Disk  2.1 GB  HDD   -          1595 MB/s 
+    sdd     Virtual Disk  1.1 TB  HDD   -          2553 MB/s 
+
+------------------------------------------------------------------------------
+[WARN] Graphics & Display
+------------------------------------------------------------------------------
+  [WARN] Graphics card: No PCI graphics device detected
+
+------------------------------------------------------------------------------
+[PASS] Network, Wi-Fi & Bluetooth
+------------------------------------------------------------------------------
+  [PASS] Ethernet eth0: cable connected, link 10000 Mb/s (driver hv_netvsc)
+  [PASS] Internet connection: Working
+  [INFO] Bluetooth: Not detected
+
+------------------------------------------------------------------------------
+[INFO] Battery & Power
+------------------------------------------------------------------------------
+  [INFO] Battery: None (desktop computer)
+
+------------------------------------------------------------------------------
+[INFO] Temperatures & Fans
+------------------------------------------------------------------------------
+  [INFO] Temperature sensors: None readable
+  [INFO] Fans: No fan speed sensor readable (common on laptops)
+
+------------------------------------------------------------------------------
+[WARN] Audio
+------------------------------------------------------------------------------
+  [WARN] Sound card: No sound device detected
+
+------------------------------------------------------------------------------
+[WARN] Keyboard, Touchpad, Camera & USB
+------------------------------------------------------------------------------
+  [INFO] Keyboard: None detected
+  [INFO] Webcam: Not detected
+  [WARN] USB: 0 USB buses, 0 devices connected
+
+------------------------------------------------------------------------------
+[PASS] System Error Log
+------------------------------------------------------------------------------
+  [PASS] Hardware errors in system log: None found
+
+Generated by PC Hardware Test v1.0.0

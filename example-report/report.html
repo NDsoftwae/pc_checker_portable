@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PC Test Report - Unknown</title><style>
+:root{--bg:#f3f5f8;--card:#fff;--text:#1d2330;--muted:#5d6678;--line:#e4e8ef;--head:#1d2b45}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 "Segoe UI",Arial,Helvetica,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:20px 16px}
+header{background:var(--head);color:#fff;border-radius:12px;padding:20px 24px}
+header h1{margin:0;font-size:22px}
+header .co{opacity:.8;font-size:13px;margin-top:2px}
+.ident{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:6px 24px;margin-top:14px;font-size:13px}
+.ident b{display:block;color:#aab6cc;font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+.verdict{border-radius:12px;padding:16px 22px;margin:16px 0;font-size:17px;font-weight:600;display:flex;gap:14px;align-items:center}
+.verdict.PASS{background:#d9f4e2;color:#0f5e2c}.verdict.WARN{background:#fff0c7;color:#7a4f00}.verdict.FAIL{background:#fddcdc;color:#9a1717}
+.verdict .big{font-size:26px;font-weight:800}
+.card{background:var(--card);border-radius:12px;padding:16px 20px;margin:14px 0;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card h2{margin:0 0 10px;font-size:16px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.badge{display:inline-block;min-width:46px;text-align:center;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700}
+.PASS .badge,.badge.PASS{background:#d9f4e2;color:#0f5e2c}.badge.WARN{background:#fff0c7;color:#7a4f00}
+.badge.FAIL{background:#fddcdc;color:#9a1717}.badge.INFO{background:#e2edfc;color:#1a4b94}.badge.SKIP{background:#eceef1;color:#666}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.l{color:var(--muted);width:38%}
+tr.FAIL td{background:#fff5f5}tr.WARN td{background:#fffbef}
+h3{font-size:13px;margin:14px 0 4px;color:var(--muted)}
+.note{background:#f6f8fb;border-left:3px solid #8aa2c8;padding:6px 10px;margin-top:8px;font-size:13px}
+.summary td{border:none;padding:4px 8px}
+footer{color:var(--muted);font-size:12px;text-align:center;margin:20px 0}
+.sign{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:30px}
+.sign div{border-top:1px solid #999;padding-top:4px;font-size:12px;color:var(--muted)}
+@media print{body{background:#fff}.card{box-shadow:none;border:1px solid #ddd;break-inside:avoid}header{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style></head><body><div class=wrap>
+<header><h1>PC Hardware Test Report</h1>
+<div class=co>PC Deals Online</div>
+<div class=ident>
+<div><b>Manufacturer</b>Unknown</div>
+<div><b>Model</b>Unknown</div>
+<div><b>Serial number</b>Unknown</div>
+<div><b>Processor</b>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</div>
+<div><b>Memory</b>7.7 GiB</div>
+<div><b>Storage</b>758 MB HDD, 101 MB HDD, 2.1 GB HDD, 1.1 TB HDD</div>
+<div><b>Graphics</b>Unknown</div>
+<div><b>Battery</b>n/a</div>
+<div><b>Tested</b>2026-10-07 15:51 (quick mode)</div></div></header>
+<div class="verdict WARN"><span class=big>ATTENTION</span><span>The computer works, but some items need attention (see warnings).</span></div>
+<div class=card><h2>Summary</h2><table class=summary>
+<tr><td><span class="badge INFO">INFO</span></td><td><a href="#system">System Information</a></td></tr>
+<tr><td><span class="badge PASS">PASS</span></td><td><a href="#cpu">Processor (CPU)</a></td></tr>
+<tr><td><span class="badge PASS">PASS</span></td><td><a href="#memory">Memory (RAM)</a></td></tr>
+<tr><td><span class="badge PASS">PASS</span></td><td><a href="#storage">Storage (Disks)</a></td></tr>
+<tr><td><span class="badge WARN">WARN</span></td><td><a href="#graphics">Graphics &amp; Display</a></td></tr>
+<tr><td><span class="badge PASS">PASS</span></td><td><a href="#network">Network, Wi-Fi &amp; Bluetooth</a></td></tr>
+<tr><td><span class="badge INFO">INFO</span></td><td><a href="#battery">Battery &amp; Power</a></td></tr>
+<tr><td><span class="badge INFO">INFO</span></td><td><a href="#sensors">Temperatures &amp; Fans</a></td></tr>
+<tr><td><span class="badge WARN">WARN</span></td><td><a href="#audio">Audio</a></td></tr>
+<tr><td><span class="badge WARN">WARN</span></td><td><a href="#devices">Keyboard, Touchpad, Camera &amp; USB</a></td></tr>
+<tr><td><span class="badge PASS">PASS</span></td><td><a href="#kernel">System Error Log</a></td></tr>
+</table></div>
+<div class=card id="system"><h2>System Information <span class="badge INFO">INFO</span></h2>
+<div class=scroll><table>
+<tr class="INFO"><td class=l>Manufacturer</td><td>Unknown</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Model</td><td>Unknown</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Serial number</td><td>Not set</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Chassis type</td><td>Unknown (0)</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Boot mode</td><td>Legacy BIOS</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Test mode</td><td>Quick</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Test date / time</td><td>2026-10-07 15:51 (from computer clock)</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+</table></div>
+</div>
+<div class=card id="cpu"><h2>Processor (CPU) <span class="badge PASS">PASS</span></h2>
+<div class=scroll><table>
+<tr class="PASS"><td class=l>Model</td><td>Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>Cores / threads</td><td>4 cores / 4 threads</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Virtualization</td><td>VT-x</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Temperature sensor</td><td>Not available on this machine</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>Stress test (5 s, all threads, results verified)</td><td>Passed - no calculation errors</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+</table></div>
+</div>
+<div class=card id="memory"><h2>Memory (RAM) <span class="badge PASS">PASS</span></h2>
+<div class=scroll><table>
+<tr class="PASS"><td class=l>Installed memory</td><td>7.7 GiB</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>Usable by system</td><td>7.7 GiB</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="SKIP"><td class=l>Memory test</td><td>No memory test tool available</td><td style="width:60px"><span class="badge SKIP">SKIP</span></td></tr>
+</table></div>
+<div class=note>Quick mode tests part of the RAM briefly. For a deep RAM test choose &#x27;Full&#x27; or boot &#x27;Memtest86+&#x27; from the USB boot menu.</div>
+</div>
+<div class=card id="storage"><h2>Storage (Disks) <span class="badge PASS">PASS</span></h2>
+<div class=scroll><table>
+<tr class="PASS"><td class=l>[sda] Drive</td><td>Virtual Disk, 758 MB, HDD</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sda] Serial / firmware</td><td>60022480868249a0407bd58c47bd59e3 / ?</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>[sda] SMART</td><td>smartctl returned no data</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sda] Read test (180 MB x 1, read-only)</td><td>751 MB/s</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sda] Partitions / file systems</td><td>ext4</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdb] Drive</td><td>Virtual Disk, 101 MB, HDD</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdb] Serial / firmware</td><td>600224808a576a3654deafca5e02a29d / ?</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>[sdb] SMART</td><td>smartctl returned no data</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdb] Read test (24 MB x 1, read-only)</td><td>376 MB/s</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdb] Partitions / file systems</td><td>ext4</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdc] Drive</td><td>Virtual Disk, 2.1 GB, HDD</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdc] Serial / firmware</td><td>60022480f0e14c15344f95bcf92b33c0 / ?</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>[sdc] SMART</td><td>smartctl returned no data</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdc] Read test (512 MB x 1, read-only)</td><td>1595 MB/s</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdc] Partitions / file systems</td><td>None (empty disk)</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdd] Drive</td><td>Virtual Disk, 1.1 TB, HDD</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdd] Serial / firmware</td><td>600224804585a7f144d3549f258fcbe3 / ?</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>[sdd] SMART</td><td>smartctl returned no data</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="PASS"><td class=l>[sdd] Read test (1024 MB x 1, read-only)</td><td>2553 MB/s</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>[sdd] Partitions / file systems</td><td>ext4</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+</table></div>
+<h3>Detected drives</h3><div class=scroll><table><tr><th>Device</th><th>Model</th><th>Size</th><th>Type</th><th>Life left</th><th>Read speed</th></tr>
+<tr><td>sda</td><td>Virtual Disk</td><td>758 MB</td><td>HDD</td><td>-</td><td>751 MB/s</td></tr>
+<tr><td>sdb</td><td>Virtual Disk</td><td>101 MB</td><td>HDD</td><td>-</td><td>376 MB/s</td></tr>
+<tr><td>sdc</td><td>Virtual Disk</td><td>2.1 GB</td><td>HDD</td><td>-</td><td>1595 MB/s</td></tr>
+<tr><td>sdd</td><td>Virtual Disk</td><td>1.1 TB</td><td>HDD</td><td>-</td><td>2553 MB/s</td></tr>
+</table></div>
+</div>
+<div class=card id="graphics"><h2>Graphics &amp; Display <span class="badge WARN">WARN</span></h2>
+<div class=scroll><table>
+<tr class="WARN"><td class=l>Graphics card</td><td>No PCI graphics device detected</td><td style="width:60px"><span class="badge WARN">WARN</span></td></tr>
+</table></div>
+</div>
+<div class=card id="network"><h2>Network, Wi-Fi &amp; Bluetooth <span class="badge PASS">PASS</span></h2>
+<div class=scroll><table>
+<tr class="PASS"><td class=l>Ethernet eth0</td><td>cable connected, link 10000 Mb/s (driver hv_netvsc)</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="PASS"><td class=l>Internet connection</td><td>Working</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+<tr class="INFO"><td class=l>Bluetooth</td><td>Not detected</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+</table></div>
+</div>
+<div class=card id="battery"><h2>Battery &amp; Power <span class="badge INFO">INFO</span></h2>
+<div class=scroll><table>
+<tr class="INFO"><td class=l>Battery</td><td>None (desktop computer)</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+</table></div>
+</div>
+<div class=card id="sensors"><h2>Temperatures &amp; Fans <span class="badge INFO">INFO</span></h2>
+<div class=scroll><table>
+<tr class="INFO"><td class=l>Temperature sensors</td><td>None readable</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Fans</td><td>No fan speed sensor readable (common on laptops)</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+</table></div>
+</div>
+<div class=card id="audio"><h2>Audio <span class="badge WARN">WARN</span></h2>
+<div class=scroll><table>
+<tr class="WARN"><td class=l>Sound card</td><td>No sound device detected</td><td style="width:60px"><span class="badge WARN">WARN</span></td></tr>
+</table></div>
+</div>
+<div class=card id="devices"><h2>Keyboard, Touchpad, Camera &amp; USB <span class="badge WARN">WARN</span></h2>
+<div class=scroll><table>
+<tr class="INFO"><td class=l>Keyboard</td><td>None detected</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="INFO"><td class=l>Webcam</td><td>Not detected</td><td style="width:60px"><span class="badge INFO">INFO</span></td></tr>
+<tr class="WARN"><td class=l>USB</td><td>0 USB buses, 0 devices connected</td><td style="width:60px"><span class="badge WARN">WARN</span></td></tr>
+</table></div>
+</div>
+<div class=card id="kernel"><h2>System Error Log <span class="badge PASS">PASS</span></h2>
+<div class=scroll><table>
+<tr class="PASS"><td class=l>Hardware errors in system log</td><td>None found</td><td style="width:60px"><span class="badge PASS">PASS</span></td></tr>
+</table></div>
+</div>
+<div class=card><h2>Technician notes</h2><div style="min-height:60px"></div><div class=sign><div>Technician: </div><div>Signature / date</div></div></div>
+<footer>Generated by PC Hardware Test v1.0.0 &middot; raw logs are in the <code>raw</code> folder</footer></div></body></html>

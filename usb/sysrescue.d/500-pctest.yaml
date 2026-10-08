@@ -1,0 +1,13 @@
+---
+# PC Hardware Test - SystemRescue settings
+global:
+    # keep the USB stick mounted so reports can be saved on it
+    copytoram: false
+    # stay on the text console (the test opens the desktop only on request)
+    dostartx: false
+
+autorun:
+    ar_disable: false
+    # do not wait for a key press after the test program exits
+    ar_nowait: true
+    ar_ignorefail: true
